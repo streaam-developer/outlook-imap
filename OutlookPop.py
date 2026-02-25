@@ -164,7 +164,7 @@ class outlook:
                         self.uaid = values[2]
                         logger.info(f"[LOGIN] Extracted pprid, ipt, uaid values")
                         
-                        m = re.search('/([^/?]*)\?', self.action)
+                        m = re.search(r'/([^/?]*)\?', self.action)
                         
                         if m:
                             self.loginzt = m.group(1)

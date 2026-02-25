@@ -4,7 +4,7 @@ import time
 from typing import Dict, List, Tuple
 import uuid
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from functools import cached_property
 from urllib.parse import quote
 import json
@@ -634,7 +634,7 @@ class Outlook:
                     "LastName": self.faker.last_name(),
                     "LW": 1,
                     "MemberName": f"{email}@{domain_full}",
-                    "RequestTimeStamp": datetime.utcnow().isoformat(timespec='milliseconds') + "Z",
+                    "RequestTimeStamp": datetime.now(timezone.utc).isoformat(timespec='milliseconds') + "Z",
                     "ReturnUrl": "",
                     "SignupReturnUrl": quote(results['final_url']).replace('%3D', '%3d',).replace('%3A', ':'),
                     "SuggestedAccountType": "OUTLOOK",
