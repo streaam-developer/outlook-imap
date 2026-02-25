@@ -619,10 +619,15 @@ class Outlook:
                     f"{email}@{domain_full}:false"
                 ]
                 
+                if tld == 'com':
+                    country = 'US'
+                else:
+                    country = tld.upper()
+
                 payload = {
                     "BirthDate": f"{random.randint(1,28)}:{random.randint(1,12)}:{random.randint(1970, 2005)}",
                     "CheckAvailStateMap": avail_check_list,
-                    "Country": self.faker.country_code(),
+                    "Country": country,
                     "EvictionWarningShown": [],
                     "FirstName": self.faker.first_name(),
                     "IsRDM": False,
