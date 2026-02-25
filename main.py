@@ -433,23 +433,9 @@ class Outlook:
     def base_headers(self) -> Dict[str, str]:
         _uuid = str(uuid.uuid4())
         return {
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'Accept-Encoding': 'gzip, deflate, br, zstd',
-            'Accept-Language': 'en-US,en;q=0.9',
             'client-request-id': _uuid,
-            'Connection': 'keep-alive',
             'correlation-id': _uuid,
-            'Host': 'login.microsoftonline.com',
             'return-client-request-id': 'false',
-            'sec-ch-ua': '"Android WebView";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"Android"',
-            'Sec-Fetch-Dest': 'document',
-            'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'none',
-            'Sec-Fetch-User': '?1',
-            'Upgrade-Insecure-Requests': '1',
-            'User-Agent': 'Mozilla/5.0 (Linux; Android 9; SM-S9210 Build/PQ3A.190605.07291528; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.100 Safari/537.36 PKeyAuth/1.0',
             'x-client-os': '28',
             'x-client-sku': 'MSAL.xplat.android',
             'x-client-src-sku': 'MSAL.xplat.android',
@@ -482,8 +468,8 @@ class Outlook:
                 domain_full = f"{name}.{tld}"
                 print(f"[cyan]Selected domain: {domain_full} (Region: {mkt})[/cyan]")
                 
-                session = requests.Session(impersonate="chrome99_android")
-                session.headers = self.base_headers
+                session = requests.Session(impersonate="chrome110")
+                session.headers.update(self.base_headers)
                 
                 # Get proxy from API
                 proxy = get_proxy_from_file()
