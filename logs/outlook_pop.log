@@ -1,0 +1,82 @@
+[2026-02-24 18:33:17] [INFO] ==================================================
+[2026-02-24 18:33:17] [INFO] ===== Outlook IMAP Service Activation Tool =====
+[2026-02-24 18:33:17] [INFO] ==================================================
+[2026-02-24 18:33:17] [ERROR] Error: Insufficient parameters provided, please provide account and password
+[2026-02-24 18:33:17] [INFO] Usage: python OutlookPop.py <email> <password> [proxy]
+[2026-02-24 18:34:38] [INFO] ==================================================
+[2026-02-24 18:34:38] [INFO] ===== Outlook IMAP Service Activation Tool =====
+[2026-02-24 18:34:38] [INFO] ==================================================
+[2026-02-24 18:34:38] [ERROR] Error: Insufficient parameters provided, please provide account and password
+[2026-02-24 18:34:38] [INFO] Usage: python OutlookPop.py <email> <password> [proxy]
+[2026-02-24 18:34:49] [INFO] ==================================================
+[2026-02-24 18:34:49] [INFO] ===== Outlook IMAP Service Activation Tool =====
+[2026-02-24 18:34:49] [INFO] ==================================================
+[2026-02-24 18:34:49] [INFO] Using command line arguments - Account: jhsjh55@outlook.com
+[2026-02-24 18:34:49] [INFO] Starting processing...
+[2026-02-24 18:34:49] [INFO] Starting IMAP service activation for account jhsjh55@outlook.com
+[2026-02-24 18:34:49] [INFO] No proxy provided, using direct connection
+[2026-02-24 18:34:49] [INFO] Maximum attempts: 10 times
+[2026-02-24 18:34:49] [INFO] Attempt 1/10 to activate IMAP
+[2026-02-24 18:34:49] [INFO] [INIT] No proxy provided, using direct connection
+[2026-02-24 18:34:49] [DEBUG] [INIT] User-Agent type: <class 'str'>
+[2026-02-24 18:34:49] [DEBUG] [INIT] User-Agent value: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.154 Safari/537.36
+[2026-02-24 18:34:49] [INFO] [LOGIN] Starting login for jhsjh55@outlook.com
+[2026-02-24 18:34:50] [WARNING] [LOGIN] Initial page format unexpected, unable to extract PPFT or urlPost
+[2026-02-24 18:34:50] [INFO] Login result: True, Login status: error
+[2026-02-24 18:34:50] [WARNING] Login status is not owa, but: error, cannot continue IMAP activation
+[2026-02-24 18:34:50] [WARNING] Waiting 3 seconds before attempt 2
+[2026-02-24 18:34:53] [INFO] Attempt 2/10 to activate IMAP
+[2026-02-24 18:34:53] [INFO] [INIT] No proxy provided, using direct connection
+[2026-02-24 18:34:53] [DEBUG] [INIT] User-Agent type: <class 'str'>
+[2026-02-24 18:34:53] [DEBUG] [INIT] User-Agent value: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.154 Safari/537.36
+[2026-02-24 18:34:53] [INFO] [LOGIN] Starting login for jhsjh55@outlook.com
+[2026-02-24 18:34:54] [WARNING] [LOGIN] Initial page format unexpected, unable to extract PPFT or urlPost
+[2026-02-24 18:34:54] [INFO] Login result: True, Login status: error
+[2026-02-24 18:34:54] [WARNING] Login status is not owa, but: error, cannot continue IMAP activation
+[2026-02-24 18:34:54] [WARNING] Waiting 3 seconds before attempt 3
+[2026-02-24 18:34:57] [INFO] Attempt 3/10 to activate IMAP
+[2026-02-24 18:34:57] [INFO] [INIT] No proxy provided, using direct connection
+[2026-02-24 18:34:57] [DEBUG] [INIT] User-Agent type: <class 'str'>
+[2026-02-24 18:34:57] [DEBUG] [INIT] User-Agent value: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.154 Safari/537.36
+[2026-02-24 18:34:57] [INFO] [LOGIN] Starting login for jhsjh55@outlook.com
+[2026-02-24 18:34:58] [WARNING] [LOGIN] Initial page format unexpected, unable to extract PPFT or urlPost
+[2026-02-24 18:34:58] [INFO] Login result: True, Login status: error
+[2026-02-24 18:34:58] [WARNING] Login status is not owa, but: error, cannot continue IMAP activation
+[2026-02-24 18:34:58] [WARNING] Waiting 3 seconds before attempt 4
+[2026-02-24 18:35:01] [INFO] Attempt 4/10 to activate IMAP
+[2026-02-24 18:35:01] [INFO] [INIT] No proxy provided, using direct connection
+[2026-02-24 18:35:01] [DEBUG] [INIT] User-Agent type: <class 'str'>
+[2026-02-24 18:35:01] [DEBUG] [INIT] User-Agent value: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.154 Safari/537.36
+[2026-02-24 18:35:01] [INFO] [LOGIN] Starting login for jhsjh55@outlook.com
+[2026-02-24 18:35:01] [WARNING] [LOGIN] Initial page format unexpected, unable to extract PPFT or urlPost
+[2026-02-24 18:35:01] [INFO] Login result: True, Login status: error
+[2026-02-24 18:35:01] [WARNING] Login status is not owa, but: error, cannot continue IMAP activation
+[2026-02-24 18:35:01] [WARNING] Waiting 3 seconds before attempt 5
+[2026-02-24 18:35:04] [INFO] Attempt 5/10 to activate IMAP
+[2026-02-24 18:35:04] [INFO] [INIT] No proxy provided, using direct connection
+[2026-02-24 18:35:04] [DEBUG] [INIT] User-Agent type: <class 'str'>
+[2026-02-24 18:35:04] [DEBUG] [INIT] User-Agent value: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.154 Safari/537.36
+[2026-02-24 18:35:04] [INFO] [LOGIN] Starting login for jhsjh55@outlook.com
+[2026-02-24 18:35:05] [WARNING] [LOGIN] Initial page format unexpected, unable to extract PPFT or urlPost
+[2026-02-24 18:35:05] [INFO] Login result: True, Login status: error
+[2026-02-24 18:35:05] [WARNING] Login status is not owa, but: error, cannot continue IMAP activation
+[2026-02-24 18:35:05] [WARNING] Waiting 3 seconds before attempt 6
+[2026-02-24 18:35:08] [INFO] Attempt 6/10 to activate IMAP
+[2026-02-24 18:35:08] [INFO] [INIT] No proxy provided, using direct connection
+[2026-02-24 18:35:08] [DEBUG] [INIT] User-Agent type: <class 'str'>
+[2026-02-24 18:35:08] [DEBUG] [INIT] User-Agent value: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.154 Safari/537.36
+[2026-02-24 18:35:08] [INFO] [LOGIN] Starting login for jhsjh55@outlook.com
+[2026-02-24 18:35:08] [WARNING] [LOGIN] Initial page format unexpected, unable to extract PPFT or urlPost
+[2026-02-24 18:35:08] [INFO] Login result: True, Login status: error
+[2026-02-24 18:35:08] [WARNING] Login status is not owa, but: error, cannot continue IMAP activation
+[2026-02-24 18:35:08] [WARNING] Waiting 3 seconds before attempt 7
+[2026-02-24 18:35:11] [INFO] Attempt 7/10 to activate IMAP
+[2026-02-24 18:35:11] [INFO] [INIT] No proxy provided, using direct connection
+[2026-02-24 18:35:11] [DEBUG] [INIT] User-Agent type: <class 'str'>
+[2026-02-24 18:35:11] [DEBUG] [INIT] User-Agent value: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.154 Safari/537.36
+[2026-02-24 18:35:11] [INFO] [LOGIN] Starting login for jhsjh55@outlook.com
+[2026-02-24 18:35:12] [WARNING] [LOGIN] Initial page format unexpected, unable to extract PPFT or urlPost
+[2026-02-24 18:35:12] [INFO] Login result: True, Login status: error
+[2026-02-24 18:35:12] [WARNING] Login status is not owa, but: error, cannot continue IMAP activation
+[2026-02-24 18:35:12] [WARNING] Waiting 3 seconds before attempt 8
+[2026-02-24 18:35:14] [INFO] Operation cancelled
