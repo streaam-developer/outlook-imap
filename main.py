@@ -614,11 +614,10 @@ class Outlook:
                 password = random_string(16) + "?@!_A"
                 print(f"[cyan]Creating account with domain: {domain_full} and random password[/cyan]")
                 
-                # Build availability check mapping list
-                avail_check_list = []
-                for name, tld, _ in OUTLOOK_DOMAINS:
-                    domain = f"{name}.{tld}"
-                    avail_check_list.append(f"{email}@{domain}:false")
+                # Build availability check mapping list - only check the specific domain
+                avail_check_list = [
+                    f"{email}@{domain_full}:false"
+                ]
                 
                 payload = {
                     "BirthDate": f"{random.randint(1,28)}:{random.randint(1,12)}:{random.randint(1970, 2005)}",
