@@ -482,7 +482,7 @@ class Outlook:
                 domain_full = f"{name}.{tld}"
                 print(f"[cyan]Selected domain: {domain_full} (Region: {mkt})[/cyan]")
                 
-                session = requests.Session(impersonate="chrome110")
+                session = requests.Session(impersonate="chrome99_android")
                 session.headers = self.base_headers
                 
                 # Get proxy from API
